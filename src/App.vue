@@ -1,13 +1,18 @@
 <template>
   <div id="app"> 
     <MainHeader></MainHeader>
-    <StatsBar></StatsBar>
-    <div class="container">
+
+    <main class="container">
       <div class="row">
+        <StatsBar></StatsBar>
         <Squad></Squad>
-        <PlayerList></PlayerList>  
+        <div class="col-md-3 team">
+          <PlayerDetail></PlayerDetail>
+          <PlayerList></PlayerList>            
+        </div>
+
       </div>      
-    </div>
+    </main>
 
     
   </div>
@@ -21,6 +26,7 @@ import MainHeader from './components/MainHeader.vue';
 import StatsBar from './components/StatsBar.vue';
 import Squad from './components/Squad.vue';
 import PlayerList from './components/PlayerList.vue';
+import PlayerDetail from './components/PlayerDetail.vue';
 
 
 export default {
@@ -34,6 +40,7 @@ export default {
     MainHeader,
     StatsBar,
     PlayerList,
+    PlayerDetail,
     Squad
 
   }
@@ -43,5 +50,17 @@ export default {
 <style lang="scss">
   @import "./assets/bootstrap-4.0.0-alpha.6/scss/bootstrap-custom.scss";
   @import './assets/scss/main.scss';
+
+  main {
+    padding-top: 47px;
+  }
+
+  .team {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: #AAA;
+    border: 1px solid #555;       
+  }
+
 
 </style>

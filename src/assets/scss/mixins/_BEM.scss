@@ -1,4 +1,4 @@
-@mixin element($element) {
+@mixin elem($element) {
 	
 	&__#{$element} {
 		@content;	
@@ -6,7 +6,7 @@
 	
 }
 
-@mixin modifier($modifier) {
+@mixin mod($modifier) {
 	
 	&--#{$modifier} {
 		@content;	

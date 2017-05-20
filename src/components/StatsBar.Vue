@@ -1,5 +1,5 @@
 <template>
-	<div class="stats-bar row">
+	<div class="stats-bar col-md-2">
 
       <span><strong>Ave Games: </strong></span>       
       <span><strong>Ave Height: </strong></span>
@@ -21,6 +21,7 @@
   	background: $base;
   	min-height: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;    
 
   }

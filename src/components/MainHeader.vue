@@ -22,6 +22,7 @@
   	background: $oil;
   	position: fixed;
   	width: 100%;
+    box-shadow: 0 2px 1px $black;
   }
 
 	h1.navbar-text {

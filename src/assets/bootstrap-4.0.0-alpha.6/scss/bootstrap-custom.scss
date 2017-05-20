@@ -8,7 +8,6 @@
 // Core variables and mixins
 @import "variables";
 @import "mixins";
-@import "custom";
 
 // Reset and dependencies
 @import "normalize";
@@ -22,7 +21,7 @@
 @import "grid";
 @import "tables";
 //@import "forms";
-//@import "buttons";
+@import "buttons";
 
 // Components
 @import "transitions";
@@ -52,3 +51,4 @@
 
 // Utility classes
 @import "utilities";
+@import "custom";
