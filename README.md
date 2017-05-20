@@ -1,6 +1,7 @@
-# vue-test-sass
+# MyFootyTeam.net
 
-> A Vue.js project
+> A Vue.js project forked from vue-cli webpack-simple.
+This a submodule of [https://github.com/ThomasBullock/MyFootyTeam.net]
 
 ## Build Setup
 
