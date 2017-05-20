@@ -4,6 +4,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+// import data from './data/EssPlayerList.json';
+
 new Vue({
   el: '#app',
   render: h => h(App)

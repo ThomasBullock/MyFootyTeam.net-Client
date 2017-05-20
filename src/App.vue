@@ -1,13 +1,27 @@
 <template>
-  <div id="app">
- 
-    <h1 class="display-3">Hello, world!</h1>
+  <div id="app"> 
+    <MainHeader></MainHeader>
+    <StatsBar></StatsBar>
+    <div class="container">
+      <div class="row">
+        <Squad></Squad>
+        <PlayerList></PlayerList>  
+      </div>      
+    </div>
 
-
+    
   </div>
 </template>
 
 <script>
+
+// import {players} from './data/EssPlayerList';
+
+import MainHeader from './components/MainHeader.vue';
+import StatsBar from './components/StatsBar.vue';
+import Squad from './components/Squad.vue';
+import PlayerList from './components/PlayerList.vue';
+
 
 export default {
   name: 'app',
@@ -17,6 +31,10 @@ export default {
     }
   },
   components: {
+    MainHeader,
+    StatsBar,
+    PlayerList,
+    Squad
 
   }
 }
